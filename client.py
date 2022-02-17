@@ -3,7 +3,7 @@ import os
 from time import time
 import timeit
 
-HOST = socket.gethostbyname(socket.gethostname())
+HOST = input("Enter Server-IP : ")
 PORT = 9999
 ADDR = (HOST, PORT)
 
