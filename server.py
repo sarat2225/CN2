@@ -19,8 +19,7 @@ while True:
     file_name=data.decode(FORMAT)
 
     server.sendto(file_name.encode(FORMAT),addr)
-    file_name = "udpuser\\" + file_name
-
+    
     if not os.path.exists(file_name):
         print("Requested file doesn't exist")
         str = "NO"
