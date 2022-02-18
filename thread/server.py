@@ -14,6 +14,7 @@ server.bind((HOST, PORT))
 
 BUFFER_SIZE = 8192
 FORMAT = 'utf-8' 
+HOST = input("Enter IP address of server: ")
 
 print(f"Server starting in {HOST}...")
 
