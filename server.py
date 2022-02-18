@@ -4,7 +4,7 @@ from time import time
 import timeit
 
 # HOST = socket.gethostbyname(socket.gethostname())
-HOST = "192.168.1.204"
+HOST = input("Enter IP Address of Host Machine:")
 PORT = 9999
 
 file_dict = {}
