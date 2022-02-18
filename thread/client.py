@@ -5,7 +5,8 @@ import time
 import threading
 
 # 10.0.0.253 - server
-HOST = socket.gethostbyname(socket.gethostname())
+HOST = ""
+HOST = input("Enter IP address of server: ")
 PORT = 9999
 BUFFER_SIZE = 8192
 FORMAT = 'utf-8'
